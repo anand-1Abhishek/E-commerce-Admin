@@ -13,12 +13,6 @@ export default function SetupPage() {
       onOpen();
     }
   }, [isOpen, onOpen]);
-  return (
-    <>
-    <div >
-      Root page     
-    </div>
-    
-    </>
-  );
+  
+  return null;
 }
